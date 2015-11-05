@@ -1,0 +1,46 @@
+
+
+h1 {
+	color:black; 
+	text-shadow: 2px 4px #fff;
+	font-size: 100px; 
+	text-align: center;
+	border:6px solid black;
+	box-shadow: 102px;
+	box-shadow: 1px 10px 1px;
+	
+}
+
+
+.box {
+
+	margin: 5%;
+	padding: 10%;
+	box-shadow: 10px 10px 10px 10px #aab2bd;
+	background-image: url("pattern-1.jpg");
+}
+
+.top {
+
+	background-image: url(stripe-3.png);
+	margin: 5%;
+	padding: 10%;
+	box-shadow: 10px 10px 10px #aab2bd;
+}
+
+p {
+	color:white;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: justify; }
+
+p.money {color:white;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 10px;
+	text-align: left;
+	margin: 5%;
+	padding: 1%;
+	background-color: red;
+	box-shadow: 10px 10px 10px #aab2bd;}

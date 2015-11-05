@@ -2,8 +2,9 @@
 
 
 h1 {color:black; text-shadow: 4px 4px #ffff00;font-size: 100px;}
-table {border: double;background-color: #e8e2c9; background:rgba(236, 173, 110, 0.54); }
+table {border: double;background-color: #e8e2c9; background:rgba(236, 173, 110, 0.54); align: center; }
 td {border-style: transparent;}
 h2 {font-size: 24; text-align:center;}
 p  {color:black;text-align:center; font-size: 22pt;}
-form {text-align: center;}
+form {text-align: center}
+body {background: url(stripe-1);}
