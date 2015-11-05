@@ -13,11 +13,12 @@ h1 {
 
 
 .box {
-
+	
 	margin: 5%;
 	padding: 10%;
 	box-shadow: 10px 10px 10px 10px #aab2bd;
 	background-image: url("pattern-1.jpg");
+	background-color: cyan;
 }
 
 .top {
