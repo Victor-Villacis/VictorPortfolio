@@ -78,15 +78,15 @@ body {
 }
 .com__section--text h1 {
   margin-bottom: 3vh;
-  font-size: 48px;
+  font-size: 50px;
   font-weight: 300;
-  color: #22E2ED;
+  color: #7E5486;
 }
 .com__section--text p {
   margin: 0;
   color: rgba(255, 255, 255, 0.9);
   max-width: 600px;
-  font-size: 20px;
+  font-size: 22px;
 }
 .com__section--text img {
   max-width: 250px;
@@ -296,12 +296,12 @@ body {
 
 .logo {
   position: fixed;
-  bottom: 0; /*3vh*/
+  bottom: 2vh; /*3vh*/
   left: 3vw;
   z-index: 2;
 }
 .logo img {
-  width: 45px;
+  width: 55px;
   -webkit-transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
   transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
   -webkit-transform: rotate(0);
@@ -316,5 +316,6 @@ body {
   position: absolute;
 }
 
-
- 
+#redges {
+  border-radius: 25px;
+ }
