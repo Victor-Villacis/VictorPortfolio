@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
 var link = $('.com__nav-link');
 var linkParent = link.parent('li');
 var section = $('.com__section');

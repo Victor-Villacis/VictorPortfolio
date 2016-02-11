@@ -298,16 +298,6 @@ body {
 }
 
 
- /*
-
-.logo {
-  position: fixed;
-  bottom: 3vh;
-  left: 3vw;
-  z-index: 2;
-
- } */
-
 .logo img {
   height: 70px;
   -webkit-transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
@@ -341,11 +331,26 @@ position: fixed;
 left: 30vw;
 }
 
-
-
-
+.fa-empire {
+  -webkit-transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  -webkit-transform: rotate(2);
+          transform: rotate(2);
+}
+.fa-empire:hover {
+  -webkit-transform: rotate(360deg) scale(1);
+          transform: rotate(360deg) scale(1);
+}
 
 #redges {
   border-radius: 25px;
  }
 
+#flicker {
+position: fixed;
+z-index: 199;
+left: -2vw;
+top: -1vh;
+
+
+}
