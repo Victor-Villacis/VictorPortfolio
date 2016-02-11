@@ -1,13 +1,11 @@
-* {
-  box-sizing: border-box;
 
-}
 
 body {
-  font-family: 'Lato';
-  -webkit-font-smoothing: antialiased;
   line-height: 1.5;
-  background-color: black;
+  background:url("buddha.jpg");
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
 }
 
 .com {
@@ -22,6 +20,8 @@ body {
   height: 100vh;
   overflow: hidden;
 }
+
+/*delte to move arear to the top*/
 .com__content {
   position: relative;
   -webkit-box-flex: 8;
@@ -85,7 +85,7 @@ body {
 .com__section--text p {
   margin: 0;
   color: rgba(255, 255, 255, 0.9);
-  max-width: 600px;
+  max-width: 800px;
   font-size: 22px;
 }
 .com__section--text img {
@@ -104,6 +104,8 @@ body {
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
 }
+
+/*controls the nav bar */
 .com__nav {
   width: 90px;
 }
@@ -159,6 +161,7 @@ body {
           transform: none;
   opacity: 1;
 }
+
 .com__nav-link {
   display: -webkit-box;
   display: -webkit-flex;
@@ -294,28 +297,55 @@ body {
           transition-delay: 0.25s;
 }
 
+
+ /*
+
 .logo {
   position: fixed;
-  bottom: 2vh; /*3vh*/
+  bottom: 3vh;
   left: 3vw;
   z-index: 2;
-}
+
+ } */
+
 .logo img {
-  width: 55px;
+  height: 70px;
   -webkit-transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
   transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  -webkit-transform: rotate(1);
+          transform: rotate(1);
 }
 .logo img:hover {
-  -webkit-transform: rotate(180deg) scale(1.1);
-          transform: rotate(180deg) scale(1.1);
+  -webkit-transform: rotate(360deg) scale(2.1);
+          transform: rotate(360deg) scale(2.1);
 }
 
-.logotwo {
-  position: absolute;
+.logo {
+position: fixed;
+bottom: 3vh;
+left: 3vw;
+z-index: 2;
 }
+.logotwo {
+position: fixed;
+left: 12vw;
+}
+.logothree {
+position: fixed;
+left: 21vw;
+
+}
+
+.logofour {
+position: fixed;
+left: 30vw;
+}
+
+
+
+
 
 #redges {
   border-radius: 25px;
  }
+
