@@ -32,10 +32,10 @@ body {
   padding: 10vh 10vw;
 }
 .com__section {
-  display: -webkit-box;
+  /*display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex;
+  display: flex;*/
   -webkit-flex-flow: column wrap;
       -ms-flex-flow: column wrap;
           flex-flow: column wrap;
@@ -345,12 +345,10 @@ left: 30vw;
 #redges {
   border-radius: 25px;
  }
-
+/*
 #flicker {
 position: fixed;
 z-index: 199;
 left: -2vw;
 top: -1vh;
-
-
-}
+}/*

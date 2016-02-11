@@ -49,54 +49,64 @@
       <h1 class="animate scaleIn">Communication Design</h1>
       <img class="animate scaleIn delay-3" src="http://36.media.tumblr.com/4c29f53fb35c0ff3eb7d0a837c4892c9/tumblr_mxpxbxEgwx1s5jjtzo1_r1_500.png" alt="" />
     </section>
-
     <section class="com__section com__section--text">
 
+<!--flicker section -->
+    <div class="container col-md-12" id="flicker">
+        <div class="row">
+                <h2>Select size of photos (in pixels) you want them to be
+                displayed</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <button class="btn btn-primary" id="sq" type="button">Square
+                [75X75]</button>
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-primary" id="lg-sq" type="button">Large
+                Square</button>
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-primary" id="thumb" type=
+                "button">Thumbnail</button>
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-primary" id="small" type=
+                "button">Small</button>
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-primary" id="mid" type=
+                "button">Medium</button>
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-primary" id="ori" type=
+                "button">Original</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Hit This button to fetch photos</h2>
+                <p>Upto ten photos will be displayed. Clicking on a photo will
+                take you to the Flickr page containing the
+                photo.</p><button class="btn btn-success" id="button" type=
+                "button">Fetch Recent Photos</button> <button class=
+                "btn btn-alert" id="reset" type="button">Reset</button>
+                <hr>
+            </div>
+        </div>
 
-    <div class="container" id="flicker">
-<div class="row">
-<div class="col-md-12">
-<h2>Select size of photos (in pixels) you want them to be displayed</h2>
-</div>
-</div>
-<div class="row">
-<div class="col-md-2">
-<button type="button" class="btn btn-primary" id="sq">Square [75X75]</button>
-</div>
-<div class="col-md-2">
-<button type="button" class="btn btn-primary" id="lg-sq">Large Square</button>
-</div>
-<div class="col-md-2">
-<button type="button" class="btn btn-primary" id="thumb">Thumbnail</button>
-</div>
-<div class="col-md-2">
-<button type="button" class="btn btn-primary" id="small">Small</button>
-</div>
-<div class="col-md-2">
-<button type="button" class="btn btn-primary" id="mid">Medium</button>
-</div>
-<div class="col-md-2">
-<button type="button" class="btn btn-primary" id="ori">Original</button>
-</div>
-</div>
-<div class="row">
-<div class="col-md-12">
-<h2>Hit This button to fetch photos</h2>
-<p>Upto ten photos will be displayed. Clicking on a photo will take you to the Flickr page containing the photo.</p>
-<button type="button" class="btn btn-success" id="button">Fetch Recent Photos</button>
-<button type="button" class="btn btn-alert" id="reset">Reset</button>
-<hr>
-</div>
-</div>
-<div class="row">
-<div class="col-md-12">
-<div id="results"></div>
-</div>
-</div>
-</div>
 
-  
+  <table class="row">
+  <tbody> 
+      <td id="results" class=""></td>
+  </tbody>
+  </table>
 
+
+
+
+
+    </div>
     </section>
 </div>
 
@@ -152,7 +162,7 @@
       </li>
       <li class="com__nav-item">
         <a class="com__nav-link centered">
-          <span class="blue-line animate scaleInLeft delay-2">Flicker Gallery</span>
+          <span class="blue-line animate scaleInLeft delay-2">Flicker</span>
           <span class="fa fa-camera-retro fa-4x"></span> 
         </a>
       </li>
@@ -181,9 +191,11 @@
 
 
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 <script type="text/javascript" src="flicker.js"></script>
 <script type="text/javascript" src="sleek.js"></script>
 </body>
 </html>
+
+
