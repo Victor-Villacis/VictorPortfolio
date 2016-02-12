@@ -8,6 +8,10 @@ body {
   background-size: cover;
 }
 
+h2 {
+  color: aqua;
+}
+
 .com {
   display: -webkit-box;
   display: -webkit-flex;
