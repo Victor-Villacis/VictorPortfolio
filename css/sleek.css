@@ -2,7 +2,7 @@
 
 body {
   line-height: 1.5;
-  background:url("buddha.jpg");
+  /*background:url("images/buddha.jpg"); not linking */
   background-position: center;
   background-repeat:no-repeat;
   background-size: cover;
@@ -25,7 +25,7 @@ h2 {
   overflow: hidden;
 }
 
-/*delte to move arear to the top*/
+/*delte to move contents to the top*/
 .com__content {
   position: relative;
   -webkit-box-flex: 8;
@@ -36,10 +36,10 @@ h2 {
   padding: 10vh 10vw;
 }
 .com__section {
-  /*display: -webkit-box;
+  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex;*/
+  display: flex;
   -webkit-flex-flow: column wrap;
       -ms-flex-flow: column wrap;
           flex-flow: column wrap;
@@ -63,7 +63,7 @@ h2 {
   visibility: visible;
 }
 .com__section-half {
-  -webkit-box-flex: 1;
+   -webkit-box-flex: 1;
   -webkit-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -215,8 +215,9 @@ h2 {
 
 .blue-line {
   display: inline-table;
-  /*width: 90%;
-  height: 25px;
+  /*display: block,
+  width: 80%;
+  height: 14px;
   background: #22E2ED;
   text-align: center;*/
   margin-bottom: 15px;
@@ -314,7 +315,7 @@ h2 {
           transform: rotate(360deg) scale(2.1);
 }
 
-.logo {
+/*.logo {
 position: fixed;
 bottom: 3vh;
 left: 3vw;
@@ -333,7 +334,7 @@ left: 21vw;
 .logofour {
 position: fixed;
 left: 30vw;
-}
+} */
 
 .fa-empire {
   -webkit-transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
