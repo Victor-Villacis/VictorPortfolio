@@ -2,7 +2,7 @@
 
 body {
   line-height: 1.5;
-  /*background:url("images/buddha.jpg"); not linking */
+  /*background-image:url("images/buddha.jpg"); not linking */
   background-position: center;
   background-repeat:no-repeat;
   background-size: cover;
