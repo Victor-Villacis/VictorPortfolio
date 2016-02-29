@@ -60,7 +60,6 @@
                 <h2>Select size of photos</h2>
         </div>
         <div class="row">
-            
             <div class="col-md-2">
                 <button class="btn btn-primary" id="lg-sq" type="button">Large
                 Square</button>
