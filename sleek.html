@@ -1,199 +1,186 @@
-<div class="well">
 <!DOCTYPE html>
-  <html>
-  <head>
-    <title>Villacis</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/sleek.css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="sleek.css">
-    <body background="images/buddha.jpg"></body>
-  </head>
-  <body>
-  <!--container to make it responsive on mobile-->
-  <div class="container-fluid col-xs-12 col-lg-12">
-  <!--left side area -->
-  <div class="com">
-  <!--begin content sections -->
-  <div class="com__content">
-   <section class="com__section com__section--text com__section--text-img">
-        <div class="com__section-half">
-          <h1 class="animate slideInLeft">Victor Villacis</h1>
-          <p class="animate slideInLeft delay-2">Hell World! I Am ambitious entrepreneur with real world skills combined with the interdisciplinary studies of Political Science and Psychology. My current goal is to graduate Rutgers Coding BootCamp with newly developed technical skills in: HTML 5, CSS, Javascript, Node.js, Ruby and the tools to be a proficient web developer. I hope to utilize these newly found skills to contribute to a company in need of an ambitious developer.</p>
-        </div>
-        <div class="com__section-half">
-          <img class="animate slideInRight delay-4" id="redges" src ="images/victor.jpg" alt="Victor Villacis" />
-        </div>
-      </section>
-      <section class="com__section com__section--text">
-        <h1 class="animate slideInLeft" > Victor Villacis</h1>
-        <h1 class="animate scaleIn">Hello</h1>
-        <p class="animate slideInLeft delay-3">It's art! A statement on modern society, 'Oh Ain't Modern Society Awful?'! Did I mention we have comfy chairs? Did I mention we have comfy chairs? Stop talking, brain thinking. Hush. You know when grown-ups tell you 'everything's going to be fine' and you think they're probably lying to make you feel better?</p>
-      </section>
-      <section class="com__section com__section--text centered">
-        <h1 class="animate scaleIn">Project</h1>
-        <img class="animate scaleIn delay-3" src="" alt="" />
-      </section>
-      <section class="com__section com__section--text">
-        <h1 class="animate slideInLeft ">iframe?</h1>
-        <p class="animate slideInLeft delay-3">You hate me; you want to kill me! Well, go on! Kill me! KILL ME! No, I'll fix it. I'm good at fixing rot. Call me the Rotmeister. No, I'm the Doctor. Don't call me the Rotmeister. They're not aliens, they're Earth…liens! All I've got to do is pass as an ordinary human being. Simple. What could possibly go wrong? The way I see it, every life is a pile of good things and bad things.…hey.…the good things don't always soften the bad things; but vice-versa the bad things don't necessarily spoil the good things and make them unimportant.</p>
-      </section>
-      <section class="com__section com__section--text com__section--text-img">
-        <div class="com__section-half">
-          <h1 class="animate slideInLeft">Fun Stuff</h1>
-          <p class="animate slideInLeft delay-2">I'm nobody's taxi service; I'm not gonna be there to catch you every time you feel like jumping out of a spaceship. I am the last of my species, and I know how that weighs on the heart so don't lie to me!</p>
-        </div>
-        <div class="com__section-half">
-          <img class="animate slideInRight delay-3" src="http://41.media.tumblr.com/c3eb422708f7d7691f985f8541945197/tumblr_mnczrreGAP1s5jjtzo1_1280.png" alt="" />
-        </div>
-      </section>
-      <section class="com__section com__section--text centered">
-        <h1 class="animate scaleIn">Communication Design</h1>
-        <img class="animate scaleIn delay-3" src="http://36.media.tumblr.com/4c29f53fb35c0ff3eb7d0a837c4892c9/tumblr_mxpxbxEgwx1s5jjtzo1_r1_500.png" alt="" />
-      </section>
-      <section class="com__section com__section--text">
-  
-  <!--flicker section -->
-      <div class="container col-md-12" id="flicker">
-          <div class="row">
-                  <h2>Select size of photos</h2>
-          </div>
-          <div class="row">
-              
-              <div class="col-md-2">
-                  <button class="btn btn-primary" id="lg-sq" type="button">Large
-                  Square</button>
-              </div>
-              <div class="col-md-2">
-                  <button class="btn btn-primary" id="thumb" type=
-                  "button">Thumbnail</button>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-md-12">
-                  <h2>Fetch Photos</h2>
-                  <p>Ten photos displayed everytime the button is hit</p><button class="btn btn-success" id="button" type=
-                  "button">Fetch Recent Photos</button> <button class=
-                  "btn btn-danger" id="reset" type="button">Reset</button>
-                  <hr>
-              </div>
-          </div>
-  
-  
-    <table class="row">
-    <tbody> 
-        <td id="results" class=""></td>
-    </tbody>
-    </table>
+<html>
+<head>
+  <title>Villacis</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/sleek.css">
+  <body background="images/buddha.jpg"></body>
+</head>
+<body>
+<!--container to make it responsive on mobile-->
+<div class="container-fluid col-xs-12 col-lg-12">
+
+<!--left side area -->
+<div class="com">
+<!--begin content sections -->
+<div class="com__content">
+ <section class="com__section com__section--text com__section--text-img">
+      <div class="com__section-half">
+        <h1 class="animate slideInLeft">Victor Villacis</h1>
+        <p class="animate slideInLeft delay-2">Hell World! I Am ambitious entrepreneur with real world skills combined with the interdisciplinary studies of Political Science and Psychology. My current goal is to graduate Rutgers Coding BootCamp with newly developed technical skills in: HTML 5, CSS, Javascript, Node.js, Ruby and the tools to be a proficient web developer. I hope to utilize these newly found skills to contribute to a company in need of an ambitious developer.</p>
       </div>
-      </section>
-  
-  
-      <div class ="col-lg-7 col-lg-offset-10 col-xs-offset-5">
-    <a href="https://github.com/Victor-Villacis" class="logo" target="_blank">
-      <img class="logo" src="http://i.stack.imgur.com/oaWJU.png" alt="GitHub" /> 
-    </a>
-    <a href="https://www.linkedin.com/in/victorvillacis?trk=hp-identity-photo" class="logo logotwo" target="_blank">
-      <img class="logo logotwo"src="http://www.fuelyourblogging.com/files/linkedin-logo-square2-webtreatsetc-240x240.png" alt="LinkedIn" /> 
-    </a>
-    <a href="https://twitter.com/shogunbreeze" class="logo logothree" target="_blank">
-      <img class="logo logothree"src="http://icons.iconarchive.com/icons/designbolts/pink-girly-social/256/Active-Twitter-icon.png" alt="Twitter" /> 
-    </a>
-    <a href="mailto:victor.villacis@outlook/com" class="logo logofour" target="_blank">
-      <img class="logo logofour"src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/New_Logo_Gmail.svg/2000px-New_Logo_Gmail.svg.png" alt="E-Mail" /> 
-    </a>
-  </div>
-  
-  
-  </div>
-  
-    <!--Navigation Bar --> 
-    <nav class="com__nav">
-      <ul class="com__nav-list">
-        <li class="com__nav-item">
-          <a class="com__nav-link centered">
-            <span class="blue-line animate scaleInLeft delay-15"> About Me</span>
-            <i class="fa fa-empire fa-4x"></i> 
-          </a>
-        </li>
-        <li class="com__nav-item">
-          <a class="com__nav-link flex-row">
-            <div class="com__section-half">
-              <span class="blue-line animate scaleInLeft delay-3"></span>
-              <span class="white-line animate scaleInLeft delay-4"></span>
+      <div class="com__section-half">
+        <img class="animate slideInRight delay-4 well" id="redges" src ="images/victor.jpg" alt="Victor Villacis" />
+      </div>
+    </section>
+    <section class="com__section com__section--text">
+      <h1 class="animate slideInLeft" > Victor Villacis</h1>
+      <h1 class="animate scaleIn">Hello</h1>
+      <p class="animate slideInLeft delay-3">It's art! A statement on modern society, 'Oh Ain't Modern Society Awful?'! Did I mention we have comfy chairs? Did I mention we have comfy chairs? Stop talking, brain thinking. Hush. You know when grown-ups tell you 'everything's going to be fine' and you think they're probably lying to make you feel better?</p>
+    </section>
+    <section class="com__section com__section--text centered">
+      <h1 class="animate scaleIn">Project</h1>
+      <img class="animate scaleIn delay-3" src="" alt="" />
+    </section>
+    <section class="com__section com__section--text">
+      <h1 class="animate slideInLeft ">iframe?</h1>
+      <p class="animate slideInLeft delay-3">You hate me; you want to kill me! Well, go on! Kill me! KILL ME! No, I'll fix it. I'm good at fixing rot. Call me the Rotmeister. No, I'm the Doctor. Don't call me the Rotmeister. They're not aliens, they're Earth…liens! All I've got to do is pass as an ordinary human being. Simple. What could possibly go wrong? The way I see it, every life is a pile of good things and bad things.…hey.…the good things don't always soften the bad things; but vice-versa the bad things don't necessarily spoil the good things and make them unimportant.</p>
+    </section>
+    <section class="com__section com__section--text com__section--text-img">
+      <div class="com__section-half">
+        <h1 class="animate slideInLeft">Fun Stuff</h1>
+        <p class="animate slideInLeft delay-2">I'm nobody's taxi service; I'm not gonna be there to catch you every time you feel like jumping out of a spaceship. I am the last of my species, and I know how that weighs on the heart so don't lie to me!</p>
+      </div>
+      <div class="com__section-half">
+        <img class="animate slideInRight delay-3" src="http://41.media.tumblr.com/c3eb422708f7d7691f985f8541945197/tumblr_mnczrreGAP1s5jjtzo1_1280.png" alt="" />
+      </div>
+    </section>
+    <section class="com__section com__section--text centered">
+      <h1 class="animate scaleIn">Communication Design</h1>
+      <img class="animate scaleIn delay-3" src="http://36.media.tumblr.com/4c29f53fb35c0ff3eb7d0a837c4892c9/tumblr_mxpxbxEgwx1s5jjtzo1_r1_500.png" alt="" />
+    </section>
+    <section class="com__section com__section--text">
+
+<!--flicker section -->
+    <div class="container col-md-12" id="flicker">
+        <div class="row">
+                <h2>Select size of photos</h2>
+        </div>
+        <div class="row">
+            
+            <div class="col-md-2">
+                <button class="btn btn-primary" id="lg-sq" type="button">Large
+                Square</button>
             </div>
-            <div class="com__section-half">
-              <span class="white-circle animate slideInRight delay-5"></span>
+            <div class="col-md-2">
+                <button class="btn btn-primary" id="thumb" type=
+                "button">Thumbnail</button>
             </div>
-          </a>
-        </li>
-        <li class="com__nav-item">
-          <a class="com__nav-link centered">
-            <span class="blue-line animate scaleIn delay-3"></span>
-            <span class="white-circle animate scaleIn delay-5"></span>
-          </a>
-        </li>
-        <li class="com__nav-item">
-          <a class="com__nav-link">
-            <span class="blue-line animate scaleInLeft delay-2"></span>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Fetch Photos</h2>
+                <p>Ten photos displayed everytime the button is hit</p><button class="btn btn-success" id="button" type=
+                "button">Fetch Recent Photos</button> <button class=
+                "btn btn-danger" id="reset" type="button">Reset</button>
+                <hr>
+            </div>
+        </div>
+
+
+  <table class="row">
+  <tbody> 
+      <td id="results" class=""></td>
+  </tbody>
+  </table>
+    </div>
+    </section>
+
+
+    <div class ="col-lg-7 col-lg-offset-10 col-xs-offset-5">
+  <a href="https://github.com/Victor-Villacis" class="logo" target="_blank">
+    <img class="logo" src="http://i.stack.imgur.com/oaWJU.png" alt="GitHub" /> 
+  </a>
+  <a href="https://www.linkedin.com/in/victorvillacis?trk=hp-identity-photo" class="logo logotwo" target="_blank">
+    <img class="logo logotwo"src="http://www.fuelyourblogging.com/files/linkedin-logo-square2-webtreatsetc-240x240.png" alt="LinkedIn" /> 
+  </a>
+  <a href="https://twitter.com/shogunbreeze" class="logo logothree" target="_blank">
+    <img class="logo logothree"src="http://icons.iconarchive.com/icons/designbolts/pink-girly-social/256/Active-Twitter-icon.png" alt="Twitter" /> 
+  </a>
+  <a href="mailto:victor.villacis@outlook/com" class="logo logofour" target="_blank">
+    <img class="logo logofour"src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/New_Logo_Gmail.svg/2000px-New_Logo_Gmail.svg.png" alt="E-Mail" /> 
+  </a>
+</div>
+
+
+</div>
+
+  <!--Navigation Bar --> 
+  <nav class="com__nav">
+    <ul class="com__nav-list">
+      <li class="com__nav-item">
+        <a class="com__nav-link centered">
+          <span class="blue-line animate scaleInLeft delay-15"> About Me</span>
+          <i class="fa fa-empire fa-4x"></i> 
+        </a>
+      </li>
+      <li class="com__nav-item">
+        <a class="com__nav-link flex-row">
+          <div class="com__section-half">
+            <span class="blue-line animate scaleInLeft delay-3"></span>
             <span class="white-line animate scaleInLeft delay-4"></span>
-            <span class="white-line animate scaleInLeft delay-5"></span>
-          </a>
-        </li>
-        <li class="com__nav-item">
-          <a class="com__nav-link flex-row">
-            <div class="com__section-half">
-              <span class="blue-line animate scaleInLeft delay-3"></span>
-              <span class="white-line animate scaleInLeft delay-4"></span>
-            </div>
-            <div class="com__section-half">
-              <span class="white-circle animate slideInRight delay-5"></span>
-            </div>
-          </a>
-        </li>
-        <li class="com__nav-item">
-          <a class="com__nav-link centered">
-            <span class="blue-line animate scaleIn delay-3"></span>
-            <span class="white-circle animate scaleIn delay-5"></span>
-          </a>
-        </li>
-        <li class="com__nav-item">
-          <a class="com__nav-link centered">
-            <span class="blue-line animate scaleInLeft delay-2">Flicker</span>
-            <span class="fa fa-camera-retro fa-4x"></span> 
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-  
-  
-  
-  <!--bottom fixed social links -->
-  
-  
-  </div>
-  
-  
-  
-  
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="js/flicker.js"></script>
-  <script type="text/javascript" src="js/sleek.js"></script>
-     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
-    <script type="text/javascript" src="http://api.filestackapi.com/filestack.js"></script>
-    <script type="text/javascript" src="/scripts/components.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="flicker.js"></script>
-  <script type="text/javascript" src="sleek.js"></script>
-  </body>
-  </html>
-  
-  </div>
+          </div>
+          <div class="com__section-half">
+            <span class="white-circle animate slideInRight delay-5"></span>
+          </div>
+        </a>
+      </li>
+      <li class="com__nav-item">
+        <a class="com__nav-link centered">
+          <span class="blue-line animate scaleIn delay-3"></span>
+          <span class="white-circle animate scaleIn delay-5"></span>
+        </a>
+      </li>
+      <li class="com__nav-item">
+        <a class="com__nav-link">
+          <span class="blue-line animate scaleInLeft delay-2"></span>
+          <span class="white-line animate scaleInLeft delay-4"></span>
+          <span class="white-line animate scaleInLeft delay-5"></span>
+        </a>
+      </li>
+      <li class="com__nav-item">
+        <a class="com__nav-link flex-row">
+          <div class="com__section-half">
+            <span class="blue-line animate scaleInLeft delay-3"></span>
+            <span class="white-line animate scaleInLeft delay-4"></span>
+          </div>
+          <div class="com__section-half">
+            <span class="white-circle animate slideInRight delay-5"></span>
+          </div>
+        </a>
+      </li>
+      <li class="com__nav-item">
+        <a class="com__nav-link centered">
+          <span class="blue-line animate scaleIn delay-3"></span>
+          <span class="white-circle animate scaleIn delay-5"></span>
+        </a>
+      </li>
+      <li class="com__nav-item">
+        <a class="com__nav-link centered">
+          <span class="blue-line animate scaleInLeft delay-2">Flicker</span>
+          <span class="fa fa-camera-retro fa-4x"></span> 
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+
+
+<!--bottom fixed social links -->
+
+
+</div>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/flicker.js"></script>
+<script type="text/javascript" src="js/sleek.js"></script>
+</body>
+</html>
+
+
