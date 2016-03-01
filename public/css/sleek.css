@@ -1,12 +1,12 @@
 
 
-body {
+/*body {
   line-height: 1.5;
-  /*background-image:url("images/buddha.jpg"); not linking */
+  background-image:url("images/buddha.jpg"); not linking 
   background-position: center;
   background-repeat:no-repeat;
   background-size: cover;
-}
+}*/
 
 h2 {
   color: aqua;
@@ -221,7 +221,7 @@ h2 {
   background: #22E2ED;
   text-align: center;*/
   margin-bottom: 15px;
-  font-family: cursive;
+  font-family: ;
   text-align: center;
   font-size: x-large;
 
@@ -304,7 +304,7 @@ h2 {
 
 
 .logo img {
-  height: 70px;
+  height: 50px;
   -webkit-transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
   transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
   -webkit-transform: rotate(1);
@@ -336,7 +336,7 @@ position: fixed;
 left: 30vw;
 } */
 
-/*.fa-empire {
+.fa-empire {
   -webkit-transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
   transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
   -webkit-transform: rotate(2);
@@ -346,7 +346,6 @@ left: 30vw;
   -webkit-transform: rotate(360deg) scale(1);
           transform: rotate(360deg) scale(1);
 }
-*/
 
 #redges {
   border-radius: 25px;

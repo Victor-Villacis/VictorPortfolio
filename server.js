@@ -150,8 +150,8 @@ app.get("/listings", function(req, res){
   });
 });
 
-app.get("/test3", function(req, res){
-  res.render('test3',{
+app.get("/victor", function(req, res){
+  res.render('victor',{
     user:req.user,
     isAuthenticated: req.isAuthenticated()
   });
