@@ -144,27 +144,14 @@ app.get('/', function(req, res) {
   res.render('index', {msg: req.query.msg});
 });
 
-app.get("/listings", function(req, res){
-  Restaurant.findAll({}).then(function(restaurant){
-    res.render("restList", {restaurant});
-  });
-});
-
-app.get("/victor", function(req, res){
-  res.render('victor',{
-    user:req.user,
-    isAuthenticated: req.isAuthenticated()
-  });
-});
-
-app.get('/restinfo', function(req, res){
-  res.render('restinfo', {
-    user:req.user,
-    isAuthenticated: req.isAuthenticated()
-  });
-});
 
 
+// app.get("/victor", function(req, res){
+//   res.render('victor',{
+//     user:req.user,
+//     isAuthenticated: req.isAuthenticated()
+//   });
+// });
 
 
 
