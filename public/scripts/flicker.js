@@ -1,7 +1,7 @@
 $(document).ready(function() {
   var apiurl, myresult, apiurl_size, selected_size;
   apiurl =
-    "https://api.flickr.com/services/rest/?method=flickr.photos.getRecent&api_key=fcc808d90c754047e37818a1e8016252&per_page=40&format=json&nojsoncallback=1";
+    "https://api.flickr.com/services/rest/?method=flickr.photos.getRecent&api_key=fcc808d90c754047e37818a1e8016252&per_page=60&format=json&nojsoncallback=1";
   //secret 076034a88f42779f
   $(document).ready(function() {
     $('#button').attr("disabled", true);
