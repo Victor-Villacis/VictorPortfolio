@@ -8,9 +8,9 @@
   background-size: cover;
 }*/
 
-h2 {
+/*h2 {
   color: aqua;
-}
+}*/
 
 .com {
   display: -webkit-box;
@@ -93,7 +93,7 @@ h2 {
   font-size: 22px;
 }
 .com__section--text img {
-  max-width: 250px;
+  max-width: 380px;
   margin: 0 auto;
 }
 .com__section--text.centered {

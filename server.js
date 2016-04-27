@@ -144,6 +144,9 @@ app.get('/', function(req, res) {
   res.render('index', {msg: req.query.msg});
 });
 
+app.get('/link', function(req, res) {
+  res.render('error');
+})
 
 
 // app.get("/victor", function(req, res){

@@ -1,23 +1,29 @@
 <!--container to make it responsive on mobile-->
 <div class="">
 <!--left side area -->
-<div class="com" style="background-image:url(images/lostatsea.jpg); background-position: center;background-size:cover">
+<div class="com" style="background-image:url(images/background_color.jpg); background-position: center;background-size:cover">
 <!--begin content sections -->
     <div class="com__content">
       <section class="com__section com__section--text com__section--text-img">
         <div class="com__section-half">
-          <h1 class="animate slideInLeft">Victor Villacis</h1>
           <h4 class="animate slideInLeft delay-2">Hello World! I am an ambitious web developer with an entrepreneurial background. I use my real world skills combined with the interdisciplinary studies of Political Science and Psychology to constantly push myself to excel. I love to code and am constantly learning new technologies. I strive to maintain the balance between practical and extraordinary industry standards. I enjoy exploring and pushing myself to overcome all obstacles that may come my way.</h4>
         </div>
         <div class="com__section-half"><img alt="Victor Villacis" class="animate slideInRight delay-4 well" id="redges" src="images/victor.jpg"></div>
       </section>
+      {{!-- Github Section --}}
       <section class="com__section">
         <div class="col-xs-6">
-          <img class="materialboxed" width="650" src="images/RU_Fly.png">
-          <h4 class="center" ><a href="https://rufly2.herokuapp.com/">RU_Fly</a></h4>
-        </div>
-        <h4 class="animate slideInLeft delay-3">
-        I enjoy working in a team environment in which I am able to contribute. This project was a collaborative effort at RCB from a group of 3 devs to demonstrate functionality and the use of an API with a cloud database. It is still a work in progress and continues to grow every day. Technologies used are HTML5, CSS3, JavaScript, JQuery, Bootstrap, Node.Js, Express, Express-Handlebars, Passport.Js Sequalize and Jaws DB.</h4>
+      <div id="w">
+    <h1>Github Search App</h1>
+    <h5>Enter Github username below.</h5>
+  <br/>
+  <h5>Or enter my github username <a href="https://github.com/Victor-Villacis">victor-villacis</a> to see my code repositories</h5>
+    <form id="myForm">
+    <input type="text" name="ghusername" id="ghusername" placeholder="Github username...">
+    <input type="submit" value="Pull USer Data" >
+    </form>
+    <div id="ghapidata" class="clearfix"></div>
+  </div>
       </section>
   <!--flicker section -->
       <section class="com__section com__section--text-img">
@@ -47,114 +53,94 @@
             <h1 class="fa fa-user fa-4x row" style="position:relative; top: 120px; right: 9px"></h1>
         </li>
         <li class="com__nav-item waves-effect waves-light btn">
-          <a class="com__nav-link centered waves-effect waves-light btn"><span class="blue-line animate scaleIn delay-3">Projects</span> <span class="white-circle animate scaleIn delay-5"></span></a>
+          <a class="com__nav-link centered waves-effect waves-light btn"><span class="blue-line animate scaleIn delay-3">Github API</span> <span class="white-circle animate scaleIn delay-5"></span></a>
            <h1 class="fa fa-expand fa-4x row" style="position:relative; top: 120px; right: 9px"></h1>
         </li>
 
         <li class="com__nav-item waves-effect waves-light btn">
-          <a class="com__nav-link centered waves-effect waves-light btn"> <span class="blue-line animate scaleInLeft delay-2">Flicker Api</span><span class="fa fa-camera-retro fa-4x"></span></a>
+          <a class="com__nav-link centered waves-effect waves-light btn"> <span class="blue-line animate scaleInLeft delay-2">Flicker API</span><span class="fa fa-camera-retro fa-4x"></span></a>
             <h1 class="fa fa-camera-retro fa-4x row" style="position:relative; top: 120px; right: 9px"></h1>
       </ul>
     </nav>
 </div>
-<!--bottom fixed social links -->
 </div>
-<!--   Icon Section   -->
-  <div class="container">
-    <div class="section">
+    </div>
+  </div>
+
+    <div class="container marketing">
+    <hr>
       <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">thumb_up</i></h2>
-            <h3 class="center">Tech Skills</h3>
-            <h5 class="light"><ul>
-              <li>HTML5, CSS3, JavaScript</li>
-              <hr>
-              <li>jQuery, Bootstrap, Node.js</li>
-              <hr>
-              <li>Materialize, Bower, Express,</li>
-              <hr>
-              <li>JSON, API, AJAX, Heroku</li>
-            </ul>
-            </h5>
-          </div>
+        <div class="col-lg-4">
+          <h2>Why?</h2>
+          <p> I have been working with web devlopment passively for about 6+ years.In October of 2015 I decided to attend Rutgers Coding Bootcamp in order to hone my skills and get an insight at all the new technologies being used today in Web Development.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <h2>Goal?</h2>
+          <p>I plan to continue working with Web Development. I hope to start a career as a developer with an exciting company that may be able to utilize my skills by presenting me challenges for me to overcome.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <h2>Quote!</h2>
+          <p>“Around here, however, we don't look backwards for very long. We keep moving forward, opening up new doors and doing new things, because we're curious...and curiosity keeps leading us down new paths.” <br> - Walt Disney</p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+<div class="row">
+  <div class="center well">
+  <h1>Technologies I work with</h1> 
+  <h2>
+  <span><i class="devicon-mongodb-plain colored"></i></span>
+  <span><i class="devicon-angularjs-plain colored"></i></span>
+  <span><i class="devicon-nodejs-plain colored"></i></span>
+  <span><i class="devicon-bootstrap-plain colored"></i></span>
+  <span><i class="devicon-css3-plain colored"></i></span>
+  <span><i class="devicon-html5-plain colored"></i></span>
+  <span><i class="devicon-javascript-plain colored"></i></span>
+  <span><i class="devicon-mysql-plain colored"></i></span>
+  <span><i class="devicon-jquery-plain colored"></i></span>
+  <span><i class="devicon-git-plain colored"></i></span>
+  <span><i class="devicon-heroku-plain colored"></i></span>
+  </h2>
+  </div>
+</div>
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+     <h1 class="center">Projects</h1>
+      <hr>
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">RuFly<a href="https://rufly2.herokuapp.com/"> <h3 class="text-muted">Review favorite spots to eat.</h3></a></h2>
+          <p class="lead">This node.js web app lets you create a user profile and add a resturant for review. It then becomes public. Technologies used include Materialize, Handlebars, Node.js, Express, Passport.js, Bcrypt.js, Sequalize and Mysql.</p>
         </div>
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h3 class="center">LifeStyle</h3>
-            <p class="light">I enjoy working on cars, past cars include Evo X, WRX STI and a 240sx. Learning new technologies and finding out how things work, currently I am spending time with the Unreal 4 engine. Maintaining an active and somewhat healthy lifestyle; playing basketball in my free time and juicing. Trying new places to eat all over NYC. Currently my favorite show right now is 11.22.63 on Hulu.</p>
-          </div>
-        </div>
-         <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">library_books</i></h2>
-            <h3 class="center">Learning</h3>
-             <h5 class="light"><ul>
-              <li>Ruby, Ruby on Rails, </li>
-              <hr>
-              <li>MongoDB, Gulp, Grunt</li>
-              <hr>
-              <li>SASS, LESS, Backbone.js</li>
-              <hr>
-              <li>Angular.js, Python</li>
-            </ul>
-            </h5>
-          </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image" src="images/rufly2.jpg">
         </div>
       </div>
-    </div>
-  </div>
 
-<!-- Parallax 1st section -->
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">I Very Much Love Beautiful Simple Design</h5>
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Mixtape<a href="https://boiling-reaches-32679.herokuapp.com/#/"> <h3 class="text-muted">Indy artits or Dj's.</h3></a></h2>
+          <p class="lead">I set out to create a node.js web app in which artist could login, and add thier mixtapes. Othe features include adding it to a public wall and setting a price tag. Utilizing a the sound cloud API, users could comment on it, review, vote to the top and listen to samples. Technologies include, MongoDB, Angular, Express, Node.js, Soundcloud API, Bootstrap, and Mongoose</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image" src="images/mixtape.jpg">
         </div>
       </div>
-    </div>
-    <div class="parallax"><img src="http://cn.wsj.com/pictures/photo/BJ20150901185241/04.jpg" alt="Unsplashed background img 2"></div>
-  </div>
 
-  <div class="container">
-    <div class="section">
-      <div class="row center">
-        <div class="container center">
-          <ul class="container center">
+    {{!--   <hr class="featurette-divider">
 
-        <li> <a class="logo col s3" href="https://github.com/Victor-Villacis" target="_blank">
-        <img alt="GitHub" class="logo" src="http://i.stack.imgur.com/oaWJU.png">
-        </a>
-        </li>
-        <li><a class="logo logothree col s3" href="https://twitter.com/shogunbreeze" target="_blank">
-        <img alt="Twitter" class="logo logothree" src="http://www.freelargeimages.com/wp-content/uploads/2015/05/Twitter_Logo_Hd_Png_01.png">
-        </a></li>
-        <li><a class="logo logotwo col s3" href="https://www.linkedin.com/in/victorvillacis?trk=hp-identity-photo" target="_blank"><img alt="LinkedIn" class="logo logotwo" src="http://www.fuelyourblogging.com/files/linkedin-logo-square2-webtreatsetc-240x240.png">
-        </a></li>
-        <li><a class="logo logofour col s3" href="mailto:victor.villacis@outlook.com" target="_blank">
-        <img alt="E-Mail" class="logo logofour" src="http://teamloyalvip.com/wp-content/uploads/2014/09/gmail-logo.png">
-        </a></li>
-      </ul>
-
-          </h3>
-          <h4> Send Message</h4>
-
-          <p class="left-align light">Hello World! I am an ambitious web developer with an entrepreneurial background. I use my real world skills combined with the interdisciplinary studies of Political Science and Psychology to constantly push myself to excel. I love to code and am constantly learning new technologies. I strive to maintain the balance between practical and extraordinary industry standards. I enjoy exploring and pushing myself to overcome all obstacles that may come my way.</p>
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
-      </div>
-    </div>
-  </div>
-
-<!-- Parallax 2nd section -->
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">Paying meticulous attention to detail while writing code may take long, but saves you twice as much time debugging. </h5>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
         </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="http://cdn1.matadornetwork.com/blogs/1/2012/11/Belize-Whale-Shark-Matador-SEO.jpg" alt="Unsplashed background img 3"></div>
-  </div>
+      </div> --}}
+
+      <hr class="featurette-divider">
+    </div><!-- /.container -->
+   
